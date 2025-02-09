@@ -1,0 +1,52 @@
+body{
+  font-family: "DM Sans", serif;
+}
+
+.navbar-brand {
+  font-size: 40px;
+}
+
+/* .custom-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+  } */
+
+  h1, h2, h3, h4, h5 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .card-title{
+    color: black;
+    font-size: x-large;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgba(25, 135, 84);
+  }
+  
+  .search-result-card:hover{
+    transform: scale(1.05);
+    box-shadow: 8px 8px 8px green;
+  }
+  .search-result-card{
+    transition: .3s;
+  }
+
+  .img-recipe{
+    border-radius: 5px;
+  }
+
+  .img-ingredient{
+    width: 70px;
+    height: 70px;
+  }
+
+  .recipe-icon-img-max-width {
+    max-width: 40px;
+    width:50%;
+  }
+
